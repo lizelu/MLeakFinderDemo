@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B66E8A367A3E8B2A979D8D68 /* libPods-MLeakFinderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4966E1738775CC56D75EB3C7 /* libPods-MLeakFinderDemo.a */; };
+		F427629A1F2497DA00023AE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F42762991F2497DA00023AE6 /* main.m */; };
+		F427629D1F2497DA00023AE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F427629C1F2497DA00023AE6 /* AppDelegate.m */; };
+		F42762A01F2497DA00023AE6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F427629F1F2497DA00023AE6 /* FirstViewController.m */; };
+		F42762A31F2497DA00023AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42762A11F2497DA00023AE6 /* Main.storyboard */; };
+		F42762A51F2497DA00023AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42762A41F2497DA00023AE6 /* Assets.xcassets */; };
+		F42762A81F2497DA00023AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42762A61F2497DA00023AE6 /* LaunchScreen.storyboard */; };
+		F42762B11F2498E900023AE6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42762B01F2498E900023AE6 /* SecondViewController.m */; };
+		F42762B41F24993200023AE6 /* LeakView.m in Sources */ = {isa = PBXBuildFile; fileRef = F42762B31F24993200023AE6 /* LeakView.m */; };
+		F42762BA1F249FD100023AE6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42762B91F249FD100023AE6 /* ThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462CC995D2833155F720DC0A /* Pods-MLeakFinderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLeakFinderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLeakFinderDemo/Pods-MLeakFinderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4966E1738775CC56D75EB3C7 /* libPods-MLeakFinderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MLeakFinderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0367242B128681514F96B63 /* Pods-MLeakFinderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLeakFinderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLeakFinderDemo/Pods-MLeakFinderDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F42762951F2497DA00023AE6 /* MLeakFinderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLeakFinderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42762991F2497DA00023AE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F427629B1F2497DA00023AE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F427629C1F2497DA00023AE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F427629E1F2497DA00023AE6 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F427629F1F2497DA00023AE6 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F42762A21F2497DA00023AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F42762A41F2497DA00023AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42762A71F2497DA00023AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F42762A91F2497DA00023AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42762AF1F2498E900023AE6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F42762B01F2498E900023AE6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F42762B21F24993200023AE6 /* LeakView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeakView.h; sourceTree = "<group>"; };
+		F42762B31F24993200023AE6 /* LeakView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeakView.m; sourceTree = "<group>"; };
+		F42762B81F249FD100023AE6 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F42762B91F249FD100023AE6 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42762921F2497DA00023AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66E8A367A3E8B2A979D8D68 /* libPods-MLeakFinderDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433018943AEF39C4F3CB2D2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				462CC995D2833155F720DC0A /* Pods-MLeakFinderDemo.debug.xcconfig */,
+				D0367242B128681514F96B63 /* Pods-MLeakFinderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54B76A1FAB60BFE89EBBCB00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4966E1738775CC56D75EB3C7 /* libPods-MLeakFinderDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F427628C1F2497DA00023AE6 = {
+			isa = PBXGroup;
+			children = (
+				F42762971F2497DA00023AE6 /* MLeakFinderDemo */,
+				F42762961F2497DA00023AE6 /* Products */,
+				433018943AEF39C4F3CB2D2E /* Pods */,
+				54B76A1FAB60BFE89EBBCB00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F42762961F2497DA00023AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42762951F2497DA00023AE6 /* MLeakFinderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42762971F2497DA00023AE6 /* MLeakFinderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F427629B1F2497DA00023AE6 /* AppDelegate.h */,
+				F427629C1F2497DA00023AE6 /* AppDelegate.m */,
+				F427629E1F2497DA00023AE6 /* FirstViewController.h */,
+				F427629F1F2497DA00023AE6 /* FirstViewController.m */,
+				F42762AF1F2498E900023AE6 /* SecondViewController.h */,
+				F42762B01F2498E900023AE6 /* SecondViewController.m */,
+				F42762B81F249FD100023AE6 /* ThirdViewController.h */,
+				F42762B91F249FD100023AE6 /* ThirdViewController.m */,
+				F42762B21F24993200023AE6 /* LeakView.h */,
+				F42762B31F24993200023AE6 /* LeakView.m */,
+				F42762A11F2497DA00023AE6 /* Main.storyboard */,
+				F42762A41F2497DA00023AE6 /* Assets.xcassets */,
+				F42762A61F2497DA00023AE6 /* LaunchScreen.storyboard */,
+				F42762A91F2497DA00023AE6 /* Info.plist */,
+				F42762981F2497DA00023AE6 /* Supporting Files */,
+			);
+			path = MLeakFinderDemo;
+			sourceTree = "<group>";
+		};
+		F42762981F2497DA00023AE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F42762991F2497DA00023AE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42762941F2497DA00023AE6 /* MLeakFinderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42762AC1F2497DA00023AE6 /* Build configuration list for PBXNativeTarget "MLeakFinderDemo" */;
+			buildPhases = (
+				C332D09F1534E526B29AEBCC /* [CP] Check Pods Manifest.lock */,
+				F42762911F2497DA00023AE6 /* Sources */,
+				F42762921F2497DA00023AE6 /* Frameworks */,
+				F42762931F2497DA00023AE6 /* Resources */,
+				18BAD2125B65A3F16EAC0C6D /* [CP] Embed Pods Frameworks */,
+				5645AD436853BBE00B0A39E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLeakFinderDemo;
+			productName = MLeakFinderDemo;
+			productReference = F42762951F2497DA00023AE6 /* MLeakFinderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F427628D1F2497DA00023AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zeluli;
+				TargetAttributes = {
+					F42762941F2497DA00023AE6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F42762901F2497DA00023AE6 /* Build configuration list for PBXProject "MLeakFinderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F427628C1F2497DA00023AE6;
+			productRefGroup = F42762961F2497DA00023AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42762941F2497DA00023AE6 /* MLeakFinderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42762931F2497DA00023AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42762A81F2497DA00023AE6 /* LaunchScreen.storyboard in Resources */,
+				F42762A51F2497DA00023AE6 /* Assets.xcassets in Resources */,
+				F42762A31F2497DA00023AE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18BAD2125B65A3F16EAC0C6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLeakFinderDemo/Pods-MLeakFinderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5645AD436853BBE00B0A39E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLeakFinderDemo/Pods-MLeakFinderDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C332D09F1534E526B29AEBCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42762911F2497DA00023AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42762B41F24993200023AE6 /* LeakView.m in Sources */,
+				F42762B11F2498E900023AE6 /* SecondViewController.m in Sources */,
+				F42762BA1F249FD100023AE6 /* ThirdViewController.m in Sources */,
+				F42762A01F2497DA00023AE6 /* FirstViewController.m in Sources */,
+				F427629D1F2497DA00023AE6 /* AppDelegate.m in Sources */,
+				F427629A1F2497DA00023AE6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F42762A11F2497DA00023AE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42762A21F2497DA00023AE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F42762A61F2497DA00023AE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42762A71F2497DA00023AE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F42762AA1F2497DA00023AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F42762AB1F2497DA00023AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42762AD1F2497DA00023AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462CC995D2833155F720DC0A /* Pods-MLeakFinderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MLeakFinderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeluli.MLeakFinderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F42762AE1F2497DA00023AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0367242B128681514F96B63 /* Pods-MLeakFinderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MLeakFinderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeluli.MLeakFinderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42762901F2497DA00023AE6 /* Build configuration list for PBXProject "MLeakFinderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42762AA1F2497DA00023AE6 /* Debug */,
+				F42762AB1F2497DA00023AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42762AC1F2497DA00023AE6 /* Build configuration list for PBXNativeTarget "MLeakFinderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42762AD1F2497DA00023AE6 /* Debug */,
+				F42762AE1F2497DA00023AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F427628D1F2497DA00023AE6 /* Project object */;
+}
