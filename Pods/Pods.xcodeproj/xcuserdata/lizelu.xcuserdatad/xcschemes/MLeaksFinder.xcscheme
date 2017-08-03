@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '401549B0736562B12960DB2EAF659C68'
+               BlueprintIdentifier = 'AC139CEF10BCCB200972B4617F3CA14E'
                BlueprintName = 'MLeaksFinder'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libMLeaksFinder.a'>
